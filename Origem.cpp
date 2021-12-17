@@ -55,8 +55,7 @@ bool dominios(std::vector<std::vector<int>>&d, std::vector<int>&candidatos, int 
 }
 
 int main() {
-	std::vector<std::vector<int>>d= { {1,2,3}, {1,2,3}, {1,2,3,4}, {2,3,4} };
-	std::cout << "Entre com os valores para os dominios: \n";
+	std::vector<std::vector<int>>d= { {1,2,3}, {1,2,3}, {1,2,3,4}, {2,3,4} };	
 	std::vector<int>candidatos({});
 	std::vector<int>restri({});
 	dominios(d,candidatos,0);
