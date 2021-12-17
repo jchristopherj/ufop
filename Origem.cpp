@@ -56,7 +56,6 @@ bool dominios(std::vector<std::vector<int>>&d, std::vector<int>&candidatos, int 
 
 int main() {
 	std::vector<std::vector<int>>d= { {1,2,3}, {1,2,3}, {1,2,3,4}, {2,3,4} };	
-	std::vector<int>candidatos({});
-	std::vector<int>restri({});
+	std::vector<int>candidatos({});	
 	dominios(d,candidatos,0);
 }
